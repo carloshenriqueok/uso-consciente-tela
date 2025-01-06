@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Uso Consciente de Telas</title>
-    <link rel="stylesheet" href="style/reset.css">
-    <link rel="stylesheet" href="style/home.css">
+    <link rel="stylesheet" href="style/reset.css" />
+    <link rel="stylesheet" href="style/header.css" />
+    <link rel="stylesheet" href="style/home.css" />
   </head>
-  <body>
-    <header>
+  <body class="home">
+    <header id="header">
       <nav>
         <h1>
           <a href="inicio.html"><img src="images/logo.png" alt="logo" /></a>
@@ -24,25 +25,80 @@
       <section class="banner">
         <h1>USO <span class="underline-hover">CONSCIENTE</span> DE TELAS</h1>
       </section>
-      <section>
-        <div>
-          <h2>Malefícios causados pelo uso excessivo de telas</h2>
-          <p>
-            O uso das telas na vida contemporânea tornou-se algo cotidiano.
-            Embora a tecnologia seja vantajosa em alguns aspectos, seu uso
-            inadequado e excessivo pode causar diversos problemas na saúde
-            mental de idosos, adultos, adolescentes e crianças. Veja a seguir
-            alguns dos malefícios causados.
-          </p>
+      <section class="maleficios">
+        <div class="container">
+          <div>
+            <h2>Malefícios causados pelo uso excessivo de telas</h2>
+            <p>
+              O uso das telas na vida contemporânea tornou-se algo cotidiano.
+              Embora a tecnologia seja vantajosa em alguns aspectos, seu uso
+              inadequado e excessivo pode causar diversos problemas na saúde
+              mental de idosos, adultos, adolescentes e crianças. Veja a seguir
+              alguns dos malefícios causados.
+            </p>
+          </div>
+
+          <div>
+            <img
+              src="images/preso-no-notebook.png"
+              alt="pessoa presa no notebook"
+            />
+          </div>
         </div>
-        <div>
-          <img
-            src="images/preso-no-notebook.png"
-            alt="pessoa presa no notebook"
-          />
+
+        <div class="lista-maleficios">
+          <ul>
+            <li>
+              <img src="images/problema-visao.png" alt="problema-no-olho" />
+              <h3>PROBLEMAS DE VISÃO</h3>
+              <p>
+                Uma das principais consequências do uso excessivo de telas é o
+                surgimento de problemas relacionados à visão, devido à
+                iluminação emitida pela tela do aparelho, além da possibilidade
+                de os problemas oculares serem potencializados por fatores como
+                a proximidade do aparelho em relação ao rosto e a quantidade de
+                brilho definida.
+              </p>
+            </li>
+            <li>
+              <img src="images/sono.png" alt="problema-no-sono" />
+              <h3>IMPACTOS NO SONO</h3>
+              <p>
+                As telas causam insônia principalmente por emitirem luz azul,
+                que inibe a produção de melatonina, dificultando o sono, e por
+                estimularem o cérebro com conteúdo interativo, mantendo-o em
+                estado de alerta. Isso atrapalha o relaxamento necessário para
+                adormecer, tornando o sono mais difícil.
+              </p>
+            </li>
+            <li>
+              <img src="images/img-vicio.png" alt="vicio-e-dependencia" />
+              <h3>VÍCIO E DEPENDÊNCIA</h3>
+              <p>
+                O uso excessivo de telas, principalmente para jogos e redes
+                sociais, pode levar à dependência digital, uma condição em que a
+                pessoa se sente obrigada a usar o dispositivo constantemente,
+                mesmo quando isso interfere em suas responsabilidades diárias,
+                como trabalho, estudo ou convivência familiar.
+              </p>
+            </li>
+            <li>
+              <img
+                src="images/problema-mental.png"
+                alt="problemas-fisicos-e-mentais"
+              />
+              <h3>PROBLEMAS FÍSICOS E MENTAIS</h3>
+              <p>
+                O uso excessivo de telas pode causar dores físicas,
+                sedentarismo, e aumentar o risco de doenças crônicas. Também
+                pode intensificar a ansiedade, depressão e isolamento, além de
+                prejudicar a concentração e o desempenho cognitivo.
+              </p>
+            </li>
+          </ul>
         </div>
       </section>
     </main>
+    <script src="js/efeitos.js"></script>
   </body>
-
 </html>
