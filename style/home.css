@@ -2,7 +2,7 @@
                  HOME
 ==============================================*/
 
-.banner{
+.banner {
     height: 100vh;
     background: linear-gradient(rgba(4, 40, 47, 0.65), rgba(4, 40, 47, 0.65)), url(../images/banner.jpg);
     background-position: center;
@@ -13,7 +13,7 @@
     align-items: center;
     justify-content: center;
 }
-.banner h1{
+.banner h1 {
     font-size: 4em;
     color: white;
     font-weight: bold;
@@ -21,25 +21,136 @@
     width: 40%;
 } /*FIM DA FORMATAÇÃO DO BANNER*/
 
-.maleficios{
+.maleficios {
     margin: 5vw 3vw 3vw 3vw;
 }
 
-.container{
+.container {
     display: flex;
     align-items: center;
     gap: 1vw;
 }
 
-.container div h2{
+.container div h2 {
     font-size: 3em;
     font-weight: 600;
     color: #353535;
     width: 70%;
 }
 
-.container div p{
+.container div p {
     font-size: 1.5em;
     margin-top: 2vw;
     width: 80%;
 }
+
+.lista-maleficios ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vw;
+    justify-content: center;
+}
+
+.lista-maleficios li {
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.lista-maleficios li img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.lista-maleficios li h3 {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #353535;
+}
+
+.lista-maleficios li p {
+    font-size: 1.2em;
+    color: #555;
+    line-height: 1.5em;
+}
+/*=========================
+            FOOTER
+===========================*/
+
+.footer {
+    background-color: #4ABAE7;
+    color: white;
+    padding: 2em 1em;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2em;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .footer-column {
+    flex: 1 1 300px;
+    min-width: 200px;
+  }
+  
+  .footer-column h4 {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 0.5em;
+  }
+  
+  .footer-column ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-column ul li a:hover {
+    color: #000000;
+  }
+  
+  .social-icons a img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s;
+  }
+  
+  .social-icons a img:hover {
+    transform: scale(1.2);
+  }
+  
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .footer-column ul {
+      justify-content: center;
+    }
+  }  

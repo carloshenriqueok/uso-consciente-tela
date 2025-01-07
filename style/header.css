@@ -2,36 +2,36 @@
             TOPO
 ===========================*/
 .home{
-header{
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    transition: 0.5s;
-}
-
-header.rolagem{
-    background-color: #8BC9EF;
-}
-
-header h1 a img{
-    height: 84px;
-    width: 484px;
-}
-
-header nav{
-    padding: 1vw 2vw 1vw 2vw;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header nav ul{
-    display: flex;
-}
-
-header nav ul li{
-    margin: 0 2vw 0 0;
-    font-size: 1.4rem;
-}
-}  /*formatação apenas para a homepage*/
+    header{
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        transition: 0.5s;
+    }
+    
+    header.rolagem{
+        background-color: #8BC9EF;
+    }
+    
+    header h1 a img{
+        height: 84px;
+        width: 484px;
+    }
+    
+    header nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    header nav ul{
+        display: flex;
+    }
+    
+    header nav ul li{
+        margin: 0 2vw 0 0;
+        font-size: 1.4rem;
+    }
+    }  /*formatação apenas para a homepage*/
+    
