@@ -14,7 +14,7 @@
     justify-content: center;
 }
 .banner h1 {
-    font-size: 4em;
+    font-size: 3em;
     color: white;
     font-weight: bold;
     text-align: center;
@@ -32,36 +32,37 @@
 }
 
 .container div h2 {
-    font-size: 3em;
+    font-size: 2em;
     font-weight: 600;
     color: #353535;
     width: 70%;
 }
 
 .container div p {
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin-top: 2vw;
     width: 80%;
+    text-align: justify;
 }
 
-.lista-maleficios ul {
+.lista-maleficios ul{
     list-style: none;
     padding: 0;
     display: flex;
     flex-wrap: wrap;
     gap: 2vw;
     justify-content: center;
+    margin-top: 3vw;
 }
 
 .lista-maleficios li {
-    width: 22%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
     background: #f9f9f9;
     border-radius: 10px;
-    padding: 20px;
+    padding: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -74,12 +75,15 @@
 .lista-maleficios li h3 {
     font-size: 1.8em;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 2vw;
     color: #353535;
+    text-align: center;
 }
 
 .lista-maleficios li p {
     font-size: 1.2em;
+    width: 65%;
     color: #555;
     line-height: 1.5em;
+    text-align: justify;
 }
