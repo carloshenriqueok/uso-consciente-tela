@@ -1,4 +1,28 @@
 /*=========================
+            TOPO
+===========================*/
+header{
+    background-color: #8BC9EF;
+    padding: 1vw 2vw 1vw 1vw;
+}
+header h1 a img{
+    height: 84px;
+    width: 484px;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul{
+    display: flex;
+}
+header nav ul li{
+    margin: 0 2vw 0 0;
+    font-size: 1.4rem;
+}
+
+/*=========================
        BENEFICIOS
 ===========================*/
 body {
