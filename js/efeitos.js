@@ -6,10 +6,18 @@ window.addEventListener("scroll", function(){
 
 //BTN LER MAIS E MENOS
 
-const button = document.getElementById('ler-mais');
+const button = document.querySelectorAll('.ler-mais');
+
+button.forEach(button => {
 button.addEventListener('click', function(){
-    const card = document.querySelector('.card');
+    const card = this.closest('.card');
     card.classList.toggle('ativado');
 
-    //if (car)
+        if (card.classList.contains('ativado')){
+            return button.textContent = "LER MENOS";
+        }
+
+        return button.textContent = "LER MAIS";
+
+    });
 });

@@ -14,7 +14,7 @@
     justify-content: center;
 }
 .banner h1 {
-    font-size: 3em;
+    font-size: 4em;
     color: white;
     font-weight: bold;
     text-align: center;
@@ -22,7 +22,7 @@
 } /*FIM DA FORMATAÇÃO DO BANNER*/
 
 .maleficios {
-    margin: 5vw 3vw 3vw 3vw;
+    margin: 5vw 3vw 5vw 3vw;
 }
 
 .container {
@@ -32,27 +32,26 @@
 }
 
 .container div h2 {
-    font-size: 2em;
+    font-size: 3em;
     font-weight: 600;
     color: #353535;
     width: 70%;
 }
 
 .container div p {
-    font-size: 1.2em;
+    font-size: 1.5em;
     margin-top: 2vw;
     width: 80%;
     text-align: justify;
 }
 
 
-
+/*FORMATAÇÃO DOS CARDS*/
 .card {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 300px;
-    text-align: justify;
 }
 
 
@@ -67,13 +66,14 @@
 }
 
 .conteudo p{
-    font-size: 1.2em;
+    font-size: 1.3em;
     color: #555;
     line-height: 1.5em;
+    text-align: justify;
 }
 
 .conteudo h3{
-    font-size: 1.8em;
+    font-size: 2em;
     font-weight: bold;
     margin-bottom: 1vw;
     color: #353535;
@@ -121,27 +121,43 @@
     background: #f9f9f9;
     border-radius: 10px;
     padding: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-/*
-.lista-maleficios li img {
-    width: 80px;
-    height: auto;
-    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.lista-maleficios li h3 {
-    font-size: 1.8em;
-    font-weight: bold;
-    margin-bottom: 2vw;
-    color: #353535;
-    text-align: center;
-}
-
-.lista-maleficios li p {
+.ler-mais{
+    border: 1px solid #5BA6D4;
+    color: #5BA6D4;
+    background-color: #f9f9f9;
     font-size: 1.2em;
-    width: 65%;
-    color: #555;
-    line-height: 1.5em;
-    text-align: justify;
-}*/
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    position: relative;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.ler-mais::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0%;
+    height: 110%;
+    background-color: #5BA6D4;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.ler-mais:hover{
+    color: white;
+}
+
+.ler-mais:hover::before{
+    width: 105%;
+}
+
+/*FIM DA FORMATAÇÃO DOS CARDS*/
+
