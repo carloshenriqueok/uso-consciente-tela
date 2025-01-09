@@ -73,7 +73,7 @@
       text-align: center;
     }
   
-    .navegacao ul, .redes-sociais ul, .devs ul{
-      justify-content: center;
+    .navegacao ul, .redes-sociais ul, .devs ul, .devs h4{
+      text-align: center;
     }
   }  
