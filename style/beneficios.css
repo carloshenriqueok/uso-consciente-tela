@@ -2,8 +2,11 @@
             TOPO
 ===========================*/
 header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
     background-color: #8BC9EF;
-    padding: 1vw 2vw 1vw 1vw;
 }
 header h1 a img{
     height: 84px;
@@ -20,6 +23,20 @@ header nav ul{
 header nav ul li{
     margin: 0 2vw 0 0;
     font-size: 1.4rem;
+    font-weight: 500;
+}
+
+header nav ul li a::after{
+    content: '';
+    display: block;
+    height: 3px;
+    width: 0%;
+    background-color: white;
+    transition: 0.5s;
+}
+
+header nav ul li a:hover::after{
+    width: 100%;
 }
 
 /*=========================
@@ -29,6 +46,7 @@ body {
     overflow-x: hidden;
 }
 section.reduzir {
+    margin-top: 4vw;
     display: flex;
 }   
 section.reduzir div.text1 h1 {
