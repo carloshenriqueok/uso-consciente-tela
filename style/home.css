@@ -14,12 +14,14 @@
     justify-content: center;
 }
 .banner h1 {
-    font-size: 4em;
+    font-size: 4.5em;
     color: white;
     font-weight: bold;
     text-align: center;
     width: 40%;
-} /*FIM DA FORMATAÇÃO DO BANNER*/
+}
+
+/*FIM DA FORMATAÇÃO DO BANNER*/
 
 .maleficios {
     margin: 5vw 3vw 5vw 3vw;
@@ -145,7 +147,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 0%;
-    height: 110%;
+    height: 103%;
     background-color: #5BA6D4;
     z-index: -1;
     transition: 0.5s;
@@ -156,8 +158,11 @@
 }
 
 .ler-mais:hover::before{
-    width: 105%;
+    width: 101%;
 }
 
 /*FIM DA FORMATAÇÃO DOS CARDS*/
+
+/*ANIMAÇÕES*/
+
 

@@ -33,6 +33,21 @@
     header nav ul li{
         margin: 0 2vw 0 0;
         font-size: 1.4rem;
+        font-weight: 500;
     }
+
+    header nav ul li a::after{
+        content: '';
+        display: block;
+        background-color: white;
+        height: 3px;
+        width: 0%;
+        transition: 0.5s;
+    }
+
+    header nav ul li a:hover::after{
+        width: 100%;
+    }
+
     }  /*formatação apenas para a homepage*/
     
