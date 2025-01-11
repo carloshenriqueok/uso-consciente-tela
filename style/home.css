@@ -163,6 +163,81 @@
 
 /*FIM DA FORMATAÇÃO DOS CARDS*/
 
-/*ANIMAÇÕES*/
+/*==============================================
+                 ANIMAÇÕS
+==============================================*/
 
 
+
+/*==============================================
+                 MOBILE
+==============================================*/
+
+@media (max-width: 600px ){
+    
+    .banner{
+        height: 50vh;
+    }
+    
+    .banner h1{
+        font-size: 2em;
+        width: 75%;
+    }
+
+    .maleficios .container{
+        display: block;
+        text-align: center;
+    }
+
+    .container div h2{
+        font-size: 2em;
+        width: 100%;
+    }
+
+    .container div p{
+        font-size: 1.2em;
+        width: 100%;
+        margin-top: 2vw;
+    }
+
+    .container div img{
+        width: 200px;
+    }
+
+    .lista-maleficios ul{
+        display: block;
+        width: 95%;
+    }
+
+    .lista-maleficios ul li{
+        width: 100%;
+        padding: 10px;
+        margin: 2vw 0 2vw 0;
+    }
+
+    .icon img{
+        width: 70px;
+    }
+
+
+    .conteudo h3{
+        font-size: 1.8em;
+    }
+
+    .conteudo p{
+        font-size: 1em;
+    }
+
+    .ler-mais::before{
+        content: none;
+    }
+
+    .ler-mais:hover{
+        color: #5BA6D4;
+    }
+
+    .ler-mais:active{
+        transform: scale(0.95);
+        background-color: #b9b8b8;
+    }    
+}

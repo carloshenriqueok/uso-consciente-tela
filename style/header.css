@@ -51,3 +51,15 @@
 
     }  /*formatação apenas para a homepage*/
     
+    /*=========================================
+                    MOBILE
+    ==========================================*/
+
+    @media (max-width: 600px ){
+        #header nav h1 a img{
+            display: none;
+        }
+        #header nav ul {
+            text-align: center;
+        }
+    }
