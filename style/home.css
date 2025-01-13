@@ -138,6 +138,7 @@
     position: relative;
     z-index: 1;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .ler-mais::before{
@@ -190,38 +191,39 @@
     }
 
     .container div h2{
-        font-size: 2em;
+        font-size: 1.3em;
         width: 100%;
+        margin-top: 5vw;
     }
 
     .container div p{
-        font-size: 1.2em;
+        font-size: 0.8em;
         width: 100%;
         margin-top: 2vw;
     }
 
     .container div img{
-        width: 200px;
+        width: 150px;
     }
 
     .lista-maleficios ul{
         display: block;
-        width: 95%;
+        width: 95%; 
     }
 
     .lista-maleficios ul li{
         width: 100%;
         padding: 10px;
-        margin: 2vw 0 2vw 0;
+        margin: 10vw 0 10vw 0;
     }
 
     .icon img{
-        width: 70px;
+        width: 50px;
     }
 
 
     .conteudo h3{
-        font-size: 1.8em;
+        font-size: 1.4em;
     }
 
     .conteudo p{
