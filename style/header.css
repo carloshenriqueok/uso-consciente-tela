@@ -49,17 +49,49 @@
         width: 100%;
     }
 
+    .menu-icon, .menu-mobile{
+        display: none;
+    }
+
     }  /*formatação apenas para a homepage*/
     
     /*=========================================
                     MOBILE
     ==========================================*/
 
-    @media (max-width: 600px ){
-        #header nav h1 a img{
+    @media (max-width: 720px ){
+
+        #header .logo h1 a img{ 
+            width: 250px;
+            height: auto;
+        }
+
+         .nav-lista{
             display: none;
         }
-        #header nav ul {
+
+        #header .menu-icon{
+            display: block;
+        }
+
+        #header .menu-icon button{
+            background-color: transparent;
+            border: none;
+        }
+
+        #header .menu-mobile ul{
+            display: flex;
+            flex-direction: column;
             text-align: center;
+            padding-bottom: 5vw;
+        }
+
+        #header .menu-mobile ul li{
+            display: block;
+            padding-top: 2vw;
+        }
+
+       #header .open{
+            display: block;
         }
     }

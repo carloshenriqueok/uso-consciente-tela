@@ -21,3 +21,17 @@ button.addEventListener('click', function(){
 
     });
 });
+
+//HEADER MOBILE
+function menuShow(){
+    const menu = document.querySelector('.menu-mobile');
+    
+       if(menu.classList.contains('open')){
+        menu.classList.remove('open');
+        document.querySelector('.icon').src = "images/menu_white_36dp.svg";
+       } else {
+        menu.classList.add('open');
+        document.querySelector('.icon').src = "images/close_white_36dp.svg";
+       }
+
+}
