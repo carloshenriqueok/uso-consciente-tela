@@ -10,16 +10,36 @@
 </head>
 <body>
     <header id="header">
-        <nav>
+      <nav class="nav-bar">
+        <div class="logo">
           <h1>
-            <a href="index.html"><img src="images/logo.png" alt="logo" ></a>
+            <a href="index.html"><img src="images/logo.png" alt="logo" /></a>
           </h1>
+        </div>
+        <div class="nav-lista">   
           <ul>
             <li><a href="index.html">Início</a></li>
             <li><a href="beneficios.html">Benefícios</a></li>
             <li><a href="uso-consciente.html">Uso Consciente</a></li>
           </ul>
-        </nav>
+        </div>
+
+        <div class="menu-icon">
+        <button onclick="menuShow()">
+          <img class="icon" src="images/menu_white_36dp.svg" alt="">
+        </button>
+        </div>
+      </nav>
+
+      <div class="menu-mobile">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="beneficios.html">Benefícios</a></li>
+          <li><a href="uso-consciente.html">Uso Consciente</a></li>
+        </ul>
+      </div>
+
+    </header> 
       </header>
 
     <main>
@@ -41,47 +61,33 @@
         </section>
 
         <section class="exemplos">
-            <div class="all">
-                <div class="esquerda">
-                    <ul>
-                        <li class="saude_ocular">
-                            <img src="images/olho-bom.png" alt="olho" class="ocular">
-                            <h2 class="ocular">SAÚDE OCULAR</h2>
-                            <p class="ocular">
-                                Redução da fadiga ocular digital. O uso prolongado de telas pode causar cansaço nos
-                                olhos, visão turva e dor de cabeça. Menos tempo em telas reduz esse tipo de desconforto.
-                            </p>
-                        </li>
-                        <li class="atv_fisicas">
-                            <img src="images/treino-1.png" alt="treino" class="fisicas">
-                            <h2 class="fisicas">TEMPO PARA ATIVIDADES FÍSICAS</h2>
-                            <p class="fisicas">
-                                Ao passar menos tempo em frente a telas, há mais oportunidades para realizar atividades
-                                físicas, o que contribui para uma saúde melhor.
-                            </p>
-                        </li>
-                    </ul>
+              <div class="container">
+                <div class="lista">
+                  <ul>
+                    <li>
+                      <img src="images/olho-bom.png" alt="saude-ocular">
+                      <h3>SAÚDE OCULAR</h3>
+                      <p>Redução da fadiga ocular digital. O uso prolongado de telas pode causar cansaço nos olhos, visão turva e dor de cabeça. Menos tempo em telas reduz esse tipo de desconforto.</p>
+                    </li>
+                    <li>
+                      <img src="images/sono-bom.png" alt="qualidade-sono">
+                      <h3>QUALIDADE NO SONO</h3>
+                      <p>A luz azul das telas interfere na produção de melatonina, afetando o sono. Reduzir o uso de dispositivos eletrônicos antes de dormir pode melhorar a qualidade do sono. Especialistas recomendam evitar telas de 1 a 2 horas antes de se deitar.</p>
+                    </li>
+                    <li>
+                      <img src="images/treino-1.png" alt="tempo-treino">
+                      <h3>TEMPO PARA ATIVIDADES FíSICAS</h3>
+                      <p>Ao passar menos tempo em frente a telas, há mais oportunidades para realizar atividades físicas, o que contribui para uma saúde melhor.</p>
+                    </li>
+                    <li>
+                      <img src="images/cerebro-segurando.png" alt="cognitivo-melhor">
+                      <h3>MELHORA O COGNITIVO</h3>
+                      <p>Para crianças, menos tempo de tela promove o desenvolvimento de habilidades sociais, motoras e cognitivas por meio de brincadeiras criativas e interação com o ambiente físico.</p>
+                    </li>
+                  </ul>
                 </div>
-                <div class="direita">
-                    <ul>
-                        <li class="qualidade_sono">
-                            <img src="images/sono-bom.png" alt="sono-bom" class="qualidade">
-                            <h2 class="qualidade">QUALIDADE NO SONO</h2>
-                            <p class="qualidade">
-                                A luz azul das telas interfere na produção de melatonina, afetando o sono. Reduzir o uso de dispositivos eletrônicos antes de dormir pode melhorar a qualidade do sono. Especialistas recomendam evitar telas de 1 a 2 horas antes de se deitar.
-                            </p>
-                        </li>
-                        <li class="melhora_cognitiva">
-                            <img src="images/cerebro-segurando.png" alt="cerebro-segurando" class="cognitivo">
-                            <h2 class="cognitivo">MELHORA O COGNITIVO</h2>
-                            <p class="cognitivo">
-                                Para crianças, menos tempo de tela promove o desenvolvimento de habilidades sociais,
-                                motoras e cognitivas por meio de brincadeiras criativas e interação com o ambiente físico.
-                            </p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+              </div>
+            
             <p class="link_beneficios">
                 Referência: <a href="https://ensino.digital/blog/a-reducao-do-tempo-de-tela-e-seus-beneficios#:~:text=Em%20m%C3%A9dia%2C%20as%20crian%C3%A7as%20passam,Aten%C3%A7%C3%A3o%20e%20Hiperatividade%20(TDAH)"> A redução do tempo de tela e seus benefícios</a>
             </p>

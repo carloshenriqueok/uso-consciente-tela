@@ -61,6 +61,10 @@
 
     @media (max-width: 720px ){
 
+        #header{
+            background-color: #8BC9EF;
+        }
+
         #header .logo h1 a img{ 
             width: 250px;
             height: auto;
@@ -72,6 +76,7 @@
 
         #header .menu-icon{
             display: block;
+            padding: 2vw;
         }
 
         #header .menu-icon button{

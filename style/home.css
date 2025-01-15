@@ -164,11 +164,15 @@
 
 /*FIM DA FORMATAÇÃO DOS CARDS*/
 
-/*==============================================
-                 ANIMAÇÕS
-==============================================*/
+.referencia{
+    font-size: 1.5em;
+    margin-top: 2vw;
+}
 
-
+.referencia a{
+    text-decoration: underline;
+    color: #5BA6D4;
+}
 
 /*==============================================
                  MOBILE
@@ -241,5 +245,9 @@
     .ler-mais:active{
         transform: scale(0.95);
         background-color: #b9b8b8;
-    }    
+    }   
+    
+    .referencia{
+        font-size: 0.8em;
+    }
 }
