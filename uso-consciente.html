@@ -1,93 +1,161 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Uso Consciente de Telas</title>
-    <link rel="stylesheet" href="style/reset.css" />
-    <link rel="stylesheet" href="style/header.css" />
-    <link rel="stylesheet" href="style/footer.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Uso Consciente de Telas</title>
+  <link rel="stylesheet" href="style/reset.css" />
+  <link rel="stylesheet" href="style/uso-consciente.css">
+  <link rel="stylesheet" href="style/footer.css">
 </head>
+
 <body>
-    <header id="header">
-        <nav>
-          <h1>
-            <a href="index.html"><img src="images/logo.png" alt="logo" /></a>
-          </h1>
-          <ul>
-            <li><a href="index.html">Início</a></li>
-            <li><a href="beneficios.html">Benefícios</a></li>
-            <li><a href="uso-consciente.html">Uso Consciente</a></li>
-          </ul>
-        </nav>
-      </header>
 
+  <header id="header">
 
+    <nav class="nav-bar">
+      <div class="logo">
+        <h1>
+          <a href="index.html"><img src="images/logo.png" alt="logo" /></a>
+        </h1>
+      </div>
+      <div class="nav-lista">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="beneficios.html">Benefícios</a></li>
+          <li><a href="uso-consciente.html">Uso Consciente</a></li>
+        </ul>
+      </div>
 
+      <div class="menu-icon">
+        <button onclick="menuShow()">
+          <img class="icon" src="images/menu_white_36dp.svg" alt="">
+        </button>
+      </div>
+    </nav>
 
+    <div class="menu-mobile">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="beneficios.html">Benefícios</a></li>
+        <li><a href="uso-consciente.html">Uso Consciente</a></li>
+      </ul>
+    </div>
 
-
-
-
-
-
-
-
-
-
-
-
-    <!-- footer -->
-    <footer class="footer">
-        <div class="footer-container">
-          <div class="footer-column">
-            <h4>Início</h4>
-            <ul>
-                <li><a href="inicio.html">Início</a></li>
-                <li><a href="beneficios.html">Benefícios</a></li>
-                <li><a href="uso-consciente.html">Uso Consciente</a></li>
-            </ul>
+  </header>
+  <main>
+    <section class="banner">
+      <div class="titulo">
+        <h1>FAÇA O USO <span>CONSCIENTE</span> DAS TELAS</h1>
+      </div>
+      <div class="imagem">
+        <img src="images/uso-consciente-banner.png" alt="">
+      </div>
+    </section>
+    <section class="lista">
+      <ul>
+        <li>
+          <div class="icon">
+            <img src="images/cronometro.png" alt="cronometro">
           </div>
+          <div class="conteudo">
+            <h3>LIMITE DE TEMPO</h3>
+            <p>Definir horários para o uso de telas evita exposição excessiva, equilibrando as atividades diárias e preservando a saúde física e mental. Com limites, aproveitamos melhor o tempo e evitamos que a tecnologia prejudique o bem-estar.</p>
+          </div>
+        </li>
+        <li>
+          <div class="icon">
+            <img src="images/pausas.png" alt="notebook-x">
+          </div>
+          <div class="conteudo">
+            <h3>FAÇA PAUSAS</h3>
+            <p>Fazer pausas enquanto usa telas é importante para evitar cansaço nos olhos, problemas de postura e estresse. A regra 20-20-20 ajuda: a cada 20 minutos de uso e olhe para algo distante por 20 segundos. Essa pequena mudança ajudam a reduzir o desconforto e a melhorar a saúde.</p>
+          </div>
+        </li>
+        <li>
+          <div class="icon">
+            <img src="images/conteudo-saudavel.png" alt="conteudo-saudavel">
+          </div>
+          <div class="conteudo">
+            <h3>CONTEÚDO DE QUALIDADE</h3>
+            <p>Consumir conteúdo de qualidade na internet é importante para aprender de forma construtiva e evitar desinformação. Escolher o que assistir ou ler com cuidado ajuda a enriquecer nosso conhecimento. Isso faz toda a diferença no nosso crescimento pessoal e profissional.</p>
+          </div>
+        </li>
+        <li>
+          <div class="icon">
+            <img src="images/livro-no-pc.png" alt="estudar-com-telas">
+          </div>
+          <div class="conteudo">
+            <h3>ESTUDAR COM AS TELAS</h3>
+            <p>Estudar com as telas é ótimo pela variedade de conteúdo e pela facilidade de acessar diferentes fontes. Além disso, recursos interativos e vídeos podem tornar o aprendizado mais interessante e fácil de entender.</p>
+          </div>
+        </li>
+      </ul>
+      <p class="referencia">
+        Referência
+        <a href="https://www.cnnbrasil.com.br/saude/conheca-12-maneiras-de-diminuir-o-tempo-de-uso-do-celular/">Conheça 12 maneiras de diminuir o tempo de uso do celular</a> e 
+        <a href="https://www.qustodio.com/pt-br/blog/tips-to-balance-screen-time-and-learning/">5 dicas para ajudar a equilibrar o tempo de tela e o aprendizado</a>
+      </p>
+    </section>
+    <section class="media">
+      <h2>Saiba se o seu tempo de tela está dentro da média diária no Brasil!</h2>
       
-          <div class="footer-column">
-            <h4>Redes Sociais</h4>
-            <div class="social-icons">
-              <a href="https://www.instagram.com/uso_de_telas/?utm_source=ig_web_button_share_sheet" target="_blank">
-                <img src="images/instagram.png" alt="Instagram">
-              </a>
-              <a href="https://github.com/carloshenriqueok/uso-consciente-tela.git">
-                <img src="images/github.png" alt="GitHub">
-              </a>
-            </div>
-          </div>
+    </section>
+  </main>
+  <!-- footer -->
+  <footer class="footer">
+    <div class="navegacao">
+      <ul>
+        <li><a href="inicio.html">Início</a></li>
+        <li><a href="beneficios.html">Benefícios</a></li>
+        <li><a href="uso-consciente.html">Uso Consciente</a></li>
+      </ul>
+    </div>
 
-          <div class="footer-column">
-            <h4>Desenvolvedores</h4>
-            <ul>
-              <li>
-                <a href="https://github.com/Arthur15Goulart" target="_blank">Arthur Goulart</a>
-                </li>
-              <li>
-                <a href="https://github.com/carloshenriqueok" target="_blank">Carlos Henrique</a>
-              </li>
-              <li>
-                <a href="https://github.com/Eliaskmi" target="_blank">Elias Davi</a>
-              </li>
-              <li>
-                <a href="https://github.com/jotakk" target="_blank">João Gabriel</a>
-              </li>
-              <li>
-                <a href="https://github.com/RaulStenger" target="_blank">Raul Stenger</a>
-              </li>
-              <li>
-                <a href="https://github.com/rodolphorocha" target="_blank">Rodolpho Rocha</a>
-              </li>
-              <li>
-                <a href="https://github.com/doginvi" target="_blank">Victor de Sousa</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </footer>
+    <div class="redes-sociais">
+      <h4>Redes Sociais</h4>
+      <ul class="social-icons">
+        <li>
+          <a href="https://www.instagram.com/uso_de_telas/?utm_source=ig_web_button_share_sheet" target="_blank">
+            <img src="images/instagram.png" alt="Instagram">
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/carloshenriqueok/uso-consciente-tela.git">
+            <img src="images/github.png" alt="GitHub">
+          </a>
+        </li>
+    </div>
+
+    <div class="devs">
+      <h4 class="desenvolvedores">Desenvolvedores</h4>
+      <ul>
+        <li>
+          <a href="https://github.com/Arthur15Goulart" target="_blank">Arthur Goulart</a>
+        </li>
+        <li>
+          <a href="https://github.com/carloshenriqueok" target="_blank">Carlos Henrique</a>
+        </li>
+        <li>
+          <a href="https://github.com/Eliaskmi" target="_blank">Elias Davi</a>
+        </li>
+        <li>
+          <a href="https://github.com/jotakk" target="_blank">João Gabriel</a>
+        </li>
+        <li>
+          <a href="https://github.com/RaulStenger" target="_blank">Raul Stenger</a>
+        </li>
+        <li>
+          <a href="https://github.com/rodolphorocha" target="_blank">Rodolpho Rocha</a>
+        </li>
+        <li>
+          <a href="https://github.com/doginvi" target="_blank">Victor de Sousa</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <script src="js/efeitos.js"></script>
 </body>
+
 </html>
