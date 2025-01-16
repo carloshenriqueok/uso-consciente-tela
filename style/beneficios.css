@@ -121,6 +121,7 @@ section.exemplos p.link_beneficios a {
         /*HEADER*/
 
         #header{
+            width: 100%;
             background-color: #8BC9EF;
         }
 
