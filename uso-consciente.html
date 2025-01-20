@@ -29,7 +29,7 @@
       </div>
 
       <div class="menu-icon">
-        <button onclick="menuShow()">
+        <button id="btn-header">
           <img class="icon" src="images/menu_white_36dp.svg" alt="">
         </button>
       </div>
@@ -98,14 +98,25 @@
         <a href="https://www.qustodio.com/pt-br/blog/tips-to-balance-screen-time-and-learning/">5 dicas para ajudar a equilibrar o tempo de tela e o aprendizado</a>
       </p>
     </section>
-    <section class="media">
-      <h2>Saiba se o seu tempo de tela está dentro da média diária no Brasil!</h2>
-      <p class="area-resp">
+    <section class="form">
+      <h2>Saiba se o seu tempo de tela diário está dentro do recomendado</h2>
+      <form action="#">
+      <div class="area-idade">
+        <input type="text" class="input" id="idade">
+        <label for="idade">Idade</label>
+      </div>
+      
+      <div class="area-resp">
         <label for="horas">Sua média diára de tela por dia: </label>
         <input type="text" id="horas" placeholder="EX: 2:30 horas">
-      </p>
-      <p>
+      </div>
+      <div class="button">
         <input type="button" id="btn-enviar" value="ENVIAR">
+      </div>
+      </form>
+      <p class="referencia">
+        Referência: 
+        <a href="https://www.figma.com/exit?url=https%3A%2F%2Fwww.gov.br%2Fparticipamaisbrasil%2Fuso-de-telas-por-criancas-e-adolescentes%23%3A~%3Atext%3DJ%25C3%25A1%2520crian%25C3%25A7as%2520entre%25206%2520e%2Cuso%2520de%2520videogames%255B10%255D.">USO DE TELAS POR CRIANÇAS E ADOLESCENTES</a>
       </p>
     </section>
   </main>

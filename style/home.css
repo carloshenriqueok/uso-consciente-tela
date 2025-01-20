@@ -190,7 +190,8 @@
     }
 
     .maleficios .container{
-        display: block;
+        display: flex;
+        flex-direction: column-reverse;
         text-align: center;
     }
 

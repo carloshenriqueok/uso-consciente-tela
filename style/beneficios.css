@@ -166,12 +166,8 @@ section.exemplos p.link_beneficios a {
         
         .reduzir{
             display: flex;
-            flex-direction: column;
+            flex-direction: column-reverse;
             justify-content: center;
-        }
-        
-        div.text1{
-            order: 2;
         }
 
         section.reduzir div.text1 h1 {
@@ -183,9 +179,7 @@ section.exemplos p.link_beneficios a {
         }
 
         section.reduzir div.text1 p{
-            box-sizing: border-box;
             width: 100%;
-            margin: 0;
             text-align: center;
             margin: 4vw 0 4vw 0;
             font-size: 0.8em;
@@ -194,7 +188,6 @@ section.exemplos p.link_beneficios a {
         section.reduzir div.cara-algemas{
             display: flex;
             justify-content: center;
-            order: 1;
         }
 
         section.reduzir div.cara-algemas img {
