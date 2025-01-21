@@ -3,11 +3,12 @@
 ===========================*/
 header{
     width: 100%;
-        position: fixed;
+    position: fixed;
     top: 0;
     left: 0;
     background-color: #8BC9EF;
     box-shadow: 0px 3px 10px #464646;
+    z-index: 1;
 }
 header h1 a img{
     height: 84px;
@@ -165,11 +166,13 @@ width: 80%;
     
 }
 
-.area-idade .input:focus{
+.area-idade .input:focus,
+.area-idade .input:valid{
     border-bottom: 2px solid #0072C4;
 }
 
-.area-idade .input:focus ~ label{
+.area-idade .input:focus ~ label,
+.area-idade .input:valid ~ label{
     margin-bottom: 1vw;
     transform: translateY(-24px);
     font-size: 1em;

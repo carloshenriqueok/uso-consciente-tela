@@ -170,6 +170,14 @@ section.exemplos p.link_beneficios a {
             justify-content: center;
         }
 
+        section.reduzir div.text1{
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+            width: 90%;
+            margin-left: 4vw;
+        }
+
         section.reduzir div.text1 h1 {
             width: 100%;
             margin: 0;
