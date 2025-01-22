@@ -428,6 +428,11 @@ width: 80%;
         align-items: center;
     }
 
+    .resultado img{
+        width: 30px;
+        height: auto;
+    }
+
     .vermelho{
         text-align: center;
         font-size: 1.3em;
