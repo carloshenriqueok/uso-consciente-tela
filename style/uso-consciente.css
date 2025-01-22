@@ -56,6 +56,7 @@ header nav ul li a:hover::after{
     justify-content: center;
     background-color: #B9DEF5;
     height: 100vh;
+    padding: 0 2vw 0 2vw;
 }
 
 .imagem{
@@ -114,7 +115,7 @@ width: 80%;
 .referencia{
     text-align: center;
     font-size: 1.5em;
-    margin-top: 4vw;
+    margin: 4vw 2vw 0 2vw;
 }
 
 .referencia a{
@@ -221,3 +222,233 @@ width: 80%;
     background-color: #0072C4;
     transform: scale(1.1);
 }   
+
+
+
+.resultado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2vw 0 1vw 0;
+}
+
+.vermelho{
+    color: #FF1818;
+    font-weight: bold;
+    font-size: 2em;
+    margin-left: 2vw;
+}
+
+
+.verde{
+    color: #42F92A;
+    font-weight: bold;
+    font-size: 2em;
+    margin-left: 2vw;
+}
+
+.media{
+    font-size: 1.7em;
+    color: #353535;
+    font-weight: 600;
+    margin-bottom: 1vw;
+}
+
+.recomendado{
+    color: #787878;
+    font-size: 1.7em;
+    font-weight: 600;
+}
+
+/*=====================================
+                MOBILE  
+=======================================*/
+
+@media (max-width: 720px ){
+
+
+
+    #header{
+        background-color: #8BC9EF;
+    }
+
+    #header .logo h1 a img{ 
+        width: 250px;
+        height: auto;
+    }
+
+     .nav-lista{
+        display: none;
+    }
+
+    #header .menu-icon{
+        display: block;
+        padding: 2vw;
+    }
+
+    #header .menu-icon button{
+        background-color: transparent;
+        border: none;
+    }
+
+    #header .menu-mobile ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 5vw;
+    }
+
+    #header .menu-mobile ul li{
+        display: block;
+        padding-top: 2vw;
+    }
+
+   #header .open{
+        display: block;
+    }
+
+    .banner{
+        background-color: transparent;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        height: auto;
+        padding: 0;
+    }
+
+    .imagem img{
+        width: 300px;
+        height: auto;
+        margin: 30vw 0 0 0;
+    }
+
+    .titulo h1{
+        font-size: 2em;
+        text-align: center;
+        width: 95%;
+        margin-left: 2vw;
+    }
+
+    .lista ul{
+        display: flex;  
+        text-align: center;
+    }
+
+    .lista ul li{
+        box-sizing: border-box;
+        margin-top: 5vw;
+        padding: 5vw;
+        width: 90%;
+    }
+
+    .lista ul li img{
+        width: 75px;
+        height: auto;
+    }
+
+    .lista ul li h3{
+        font-size: 2em;
+        width: 100%;    
+    }
+    
+    .lista ul li p{
+        width: 100%;
+        font-size: 0.9em;
+        text-align: justify;
+        margin: 2vw 0 2vw 0;
+    }
+
+    .referencia{
+        text-align: center;
+        font-size: 0.8em;
+        line-height: 150%;
+    }
+      
+    .form h2{
+        font-size: 1.5em;
+        color: #464646;
+        font-weight: 600;
+        width: 100%;
+        margin-bottom: 3vw;
+    }
+
+
+    .area-idade label{
+        width: 30%;
+        font-size: 1em;
+    }
+    
+    .area-idade .input{
+        width: 80%;
+        font-size: 1em;
+    }
+
+    .area-idade .input:focus ~ label,
+    .area-idade .input:valid ~ label{
+    font-size: 0.8em;
+    }
+
+    .area-resp label{
+        font-size: 1.2em;   
+    }
+    .area-resp input{
+        font-size: 1.1em;
+        margin: 2vw 0 2vw 0;
+    }
+
+    .area-resp input:focus{
+        border-bottom: 2px solid #0072C4;
+    }
+
+    .button{
+        display: flex;
+        justify-content: center;
+    }
+
+    #btn-enviar{
+        font-size: 1.2em;
+        padding: 1vw 5vw 1vw 5vw;
+        border-radius: 5px;
+        margin-bottom: 4vw;
+    }
+    
+    #btn-enviar:hover{
+        background-color: #4ABAE7;
+        transform: scale(1);
+    }
+
+    #btn-enviar:active{
+        background-color: #0072C4;
+        transform: scale(0.95);
+    }   
+
+    
+    .resultado{
+        display: flex;
+        align-items: center;
+    }
+
+    .vermelho{
+        text-align: center;
+        font-size: 1.3em;
+        width: 50%;
+    }
+
+
+    .verde{
+       text-align: center;
+        font-size: 1.3em;
+        width: 50%;
+    }
+
+    .media{
+        font-size: 1.1em;
+        margin-bottom: 1vw;
+    }
+
+    .recomendado{
+        font-size: 1.1em;
+    }
+
+
+}
