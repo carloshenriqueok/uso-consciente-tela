@@ -8,6 +8,7 @@ header{
     left: 0;
     background-color: #8BC9EF;
     box-shadow: 0px 3px 10px #464646;
+    z-index: 10;
 }
 header h1 a img{
     height: 84px;
@@ -33,7 +34,7 @@ header nav ul li a::after{
     height: 3px;
     width: 0%;
     background-color: white;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 header nav ul li a:hover::after{
@@ -83,7 +84,13 @@ section.reduzir div.cara-algemas img {
     padding: 2vw 2vw 5vw 2vw;
     background-color: #5BA6D4;
     border-radius: 15px;
+    transition: .5s;
+}
 
+.lista ul li:hover{
+    background-color: #4A8EB1;
+    transform: scale(1.01);
+    box-shadow: 0px 3px 10px #464646;
 }
 
 .lista ul li img{

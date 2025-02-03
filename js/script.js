@@ -58,7 +58,7 @@ btnEnviar.addEventListener('click', function(){
         return;
     }
 
-    if(horas >= 0 && idade > 0 && idade < 99){
+    if(horas >= 0 && idade > 0 && idade <= 99){
 
     if(idade === 1){
         if(horas > 0){
@@ -72,8 +72,8 @@ btnEnviar.addEventListener('click', function(){
         }
         else{
             saida.innerHTML = ` 
-        <div class="resultado">
-          <img src="images/Smiling.png" alt="carinha-triste">
+        <div class="resultado">0
+          <img src="images/Smi0ling.png" alt="carinha-triste">
           <h3 class="verde">Dentro do tempo recomendado</h3>
         </div>
         <p class="media">Sua média diaria: ${horas.toFixed(2).replace("." , ":")} horas</p>
@@ -94,7 +94,7 @@ btnEnviar.addEventListener('click', function(){
             saida.innerHTML = ` 
         <div class="resultado">
           <img src="images/Smiling.png" alt="carinha-triste">
-          <h3 class="verde">Dentro do tempo recomendado</h3>
+          <h3 class="vimageserde">Dentro do tempo recomendado</h3>
         </div>
         <p class="media">Sua média diaria: ${horas.toFixed(2).replace("." , ":")} horas</p>
         <p class="recomendado">Média diária recomendada: No máximo 1 hora</p>`
@@ -118,7 +118,7 @@ btnEnviar.addEventListener('click', function(){
           <h3 class="verde">Dentro do tempo recomendado</h3>
         </div>
         <p class="media">Sua média diaria: ${horas.toFixed(2).replace("." , ":")} horas</p>
-        <p class="recomendado">Média diária recomendada: 2 horas</p>`
+        <p class="recomendado">MédigetElementByIda diária recomendada: 2 horas</p>`
         }
     }
 
@@ -141,15 +141,27 @@ btnEnviar.addEventListener('click', function(){
         <p class="media">Sua média diaria: ${horas.toFixed(2).replace("." , ":")} horas</p>
         <p class="recomendado">Média diária recomendada: 3 horas</p>`
         }
+
     }
-        else{
-        
-            saida.innerHTML = ` 
+    else if(idade > 18){
+        if(horas > 3){
+            saida.innerHTML = `
         <div class="resultado">
-          <img src="images/Smiling.png" alt="carinha-triste">
-          <h3 class="verde">Não existe um tempo recomendado!</h3>
+          <img src="images/Disappointed.png" alt="carinha-triste">
+          <h3 class="vermelho">Atenção!</h3>
         </div>
-        <p class="media">A partir dos 18 anos não existe um uso restrito para as telas, porém é sempre recomendado fazer o uso consciente das telas!</p>`
+        <p class="media">Sua média diaria: ${horas.toFixed(2).replace("." , ":")} horas</p>
+        <p class="recomendado">Cuidado, você está passando mais que um terço do seu dia em frente as telas!!</p>`;
         }
+        else{
+            saida.innerHTML = ` 
+            <div class="resultado">
+              <img src="images/Smiling.png" alt="carinha-triste">
+              <h3 class="verde">Ótimo</h3>
+            </div>
+            <p class="media">Sua média diaria: ${horas.toFixed(2).replace("." , ":")} horas</p>
+            <p class="recomendado">Você está dentro do tempo recomendado, continue assim!!</p>`
+        }
+    }   
     }
 });
