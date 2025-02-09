@@ -104,6 +104,11 @@ header nav ul li a:hover::after{
     outline: none;
 }
 
+textarea{
+    width: 100%;
+    max-width: 300px;
+}
+
 .buttons{
     margin-top: 1vw;
 }
