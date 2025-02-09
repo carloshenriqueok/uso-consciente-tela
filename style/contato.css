@@ -1,0 +1,261 @@
+/*=========================
+            TOPO
+===========================*/
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #8BC9EF;
+    box-shadow: 0px 3px 10px #464646;
+    z-index: 1;
+}
+header h1 a img{
+    height: 84px;
+    width: 484px;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul{
+    display: flex;
+}
+header nav ul li{
+    margin: 0 2vw 0 0;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+header nav ul li a::after{
+    content: '';
+    display: block;
+    height: 3px;
+    width: 0%;
+    background-color: white;
+    transition: 0.5s;
+}
+
+header nav ul li a:hover::after{
+    width: 100%;
+}
+.menu-icon, .menu-mobile{
+    display: none;
+}
+
+
+/*=======================================
+            CONTATO
+========================================*/
+
+.contato{
+    margin: 10vw 5vw 5vw 5vw;
+}
+
+.container{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+
+.informacoes ul li{
+    display: flex;
+    align-items: center;
+    margin-top: 1.5vw;
+}
+
+.informacoes ul li img{
+    width: 40px;
+    height: auto;
+}
+
+.informacoes ul li p{
+    font-size: 1.3em;
+    margin-left: 2vw;
+}
+
+.informacoes ul li:last-child p{
+    width: 55%;
+}
+
+
+.formulario h2{
+    font-size: 3em;
+    color: #0072C4;
+    font-weight: bold;
+}
+
+.input{
+    font-size: 1.2em;
+    margin-top: 3vw;
+    padding: 1vw 6vw 1vw 1vw;
+    border: 2px solid #0072C4;
+    border-radius: 10px;
+    font-family: poppins;
+    transition: 0.5s;
+}
+
+.input:focus{
+    background-color: #FAFAFA;
+    box-shadow: 0px 3px 10px #9a9a9a;
+    border: 2px solid #509ed6;
+    outline: none;
+}
+
+.buttons{
+    margin-top: 1vw;
+}
+
+.btn-enviar{
+    background-color: #0072C4;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 1.3em;
+    padding: 0.6vw 1vw;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn-enviar:hover{
+    background-color: #005A9C;
+    box-shadow: 0px 3px 10px #9a9a9a;
+}
+
+.btn-limpar{
+    background-color: transparent;
+    border: 2px solid #0072C4;
+    color: #0072C4;
+    font-weight: 600;
+    font-size: 1.3em;
+    padding: 0.5vw 1vw;
+    border-radius: 8px;
+    margin-left: 1vw;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn-limpar:hover{
+    background-color: #FAFAFA;
+    box-shadow: 0px 3px 10px #9a9a9a;
+}
+
+
+/*=====================================
+                MOBILE  
+=======================================*/
+
+@media (max-width: 720px ){
+    #header{
+        background-color: #8BC9EF;
+    }
+
+    #header .logo h1 a img{ 
+        width: 250px;
+        height: auto;
+    }
+
+     .nav-lista{
+        display: none;
+    }
+
+    #header .menu-icon{
+        display: block;
+        padding: 2vw;
+    }
+
+    #header .menu-icon button{
+        background-color: transparent;
+        border: none;
+    }
+
+    #header .menu-mobile ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 5vw;
+    }
+
+    #header .menu-mobile ul li{
+        display: block;
+        padding-top: 2vw;
+    }
+
+   #header .open{
+        display: block;
+    }
+
+    .contato{
+        margin: 15vw 2vw 5vw 2vw;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+    
+    .informacoes{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .informacoes img{
+        width: 300px;
+        height: auto;
+    }
+
+
+    .informacoes ul li{
+        flex-direction: column;
+        margin-top: 3vw;
+    }
+
+
+    .informacoes ul li p{
+        font-size: 1em;
+        margin: 3vw 0 2vw 0;
+    }
+
+    .informacoes ul li:last-child p{
+        width: 100%;
+    }
+
+    .formulario{
+        margin: 10vw;
+        text-align: center;
+    }
+
+    .formulario h2{
+        font-size: 2em;
+    }
+
+    .input{
+        font-size: 1.2em;
+        border-radius: 6px;
+        padding: 2vw 3vw;
+    }
+
+    .buttons{
+       margin-top: 5vw;
+    }
+
+    .btn-enviar:hover{
+        background-color: #0072C4;
+    }
+
+    .btn-enviar{
+        padding: 2vw 3vw;
+    }
+
+    .btn-limpar:hover{
+        background-color: transparent;
+    }
+
+    .btn-limpar{
+        padding: 2vw 3vw;
+    }
+}

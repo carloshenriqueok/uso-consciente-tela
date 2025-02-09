@@ -151,7 +151,7 @@ btnEnviar.addEventListener('click', function(){
           <h3 class="vermelho">Atenção!</h3>
         </div>
         <p class="media">Sua média diaria: ${horas.toFixed(2).replace("." , ":")} horas</p>
-        <p class="recomendado">Cuidado, você está passando mais que um terço do seu dia em frente as telas!!</p>`;
+        <p class="recomendado">Cuidado, você está muito tempo do seu dia em frente as telas!!</p>`;
         }
         else{
             saida.innerHTML = ` 
