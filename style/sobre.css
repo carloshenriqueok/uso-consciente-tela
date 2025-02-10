@@ -47,7 +47,7 @@ header nav ul li a:hover::after{
       SOBRE NÓS
 =====================*/ 
 .section1 {
-    margin-top: 10vw;
+    margin: 10vw 5vw 5vw 5vw;
 }
 
 .section1 h2.sobre-nos {
@@ -59,27 +59,133 @@ header nav ul li a:hover::after{
 .section1 h2.sobre-nos div{
     color: #0072C4;
     margin: 0 2vw 0 2vw;
+    transition: 0.5s;
 }
 .section1 p {
     margin: 2.5vw 0 2.5vw 0;
     font-size: 1.5vw;
+    width: 85%;
     line-height: 145%;
 }
+
+.section2{
+    margin: 0 5vw 5vw 5vw;
+}
+
 .section2 h2 {
     font-size: 4vw;
     font-weight: 500;
     margin: 2vw 0 2vw 0;
     display: flex;
 }
+
+.section1 h2.sobre-nos div:hover{
+    color: #005A9C;
+}
+
 .section2 h2 div {
     color: #0072C4;
     margin: 0 2vw 0 2vw;
+    transition: 0.5s;
 }
+
+.section2 h2 div:hover{
+    color: #005A9C;
+}
+
 .section2 ul li{
     font-size: 1.5vw;
     margin: 1vw 0 1vw 0;
 }
 
+
+
+.section3 h2{
+    text-align: center;
+    font-size: 4em;
+    font-weight: 500;
+    width: 9%;
+    margin: 3vw auto;
+    border-bottom: 2px solid #0072C4;
+}
+
 .section3 ul.devs {
     display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    
+}
+
+.section3 ul li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3vw 3vw 5vw 3vw;
+}
+
+.section3 ul li img{
+    width: 250px;
+    height: auto;
+    transition: 0.5s;
+}
+
+.section3 ul li h4{
+    text-align: center;
+    font-size: 1.8em;
+    width: 85%;
+    margin: 2vw 0 1vw 0;
+}
+
+.section3 ul li p{
+    font-size: 1.3em;
+    color: #6E6E6E;
+}
+
+.section3 ul li img:hover{
+    transform: scale(1.02);
+}
+
+
+/*==============================================
+                MOBILE
+===============================================*/
+@media (max-width: 720px ) {
+
+    .section1 {
+        margin-top: 20vw;
+    }
+
+    .section1 p{
+        font-size: 0.5em;
+    }
+
+    .section2 ul li{
+        font-size: 0.5em;
+    }
+
+    .section3 h2{
+        font-size: 2em;
+        width: 100%;
+        border-bottom: none;
+        margin: 3vw auto;
+    }
+
+    .section3 ul{
+        flex-direction: column;
+    }
+
+    .section3 ul  li img{
+        width: 100px;
+    }
+
+    .section3 ul li h4{
+        font-size: 1.2em;
+    }
+
+    .section3 ul li p{
+        font-size: 1em;
+    }
 }
