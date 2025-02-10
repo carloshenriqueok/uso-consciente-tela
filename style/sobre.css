@@ -1,0 +1,85 @@
+/*=========================
+            TOPO
+===========================*/
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #8BC9EF;
+    box-shadow: 0px 3px 10px #464646;
+    z-index: 1;
+}
+header h1 a img{
+    height: 84px;
+    width: 484px;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul{
+    display: flex;
+}
+header nav ul li{
+    margin: 0 2vw 0 0;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+header nav ul li a::after{
+    content: '';
+    display: block;
+    height: 3px;
+    width: 0%;
+    background-color: white;
+    transition: 0.5s;
+}
+
+header nav ul li a:hover::after{
+    width: 100%;
+}
+.menu-icon, .menu-mobile{
+    display: none;
+}
+/*===================
+      SOBRE NÓS
+=====================*/ 
+.section1 {
+    margin-top: 10vw;
+}
+
+.section1 h2.sobre-nos {
+    font-size: 4.5vw;
+    font-weight: 500;
+    margin: 2vw 0 2vw 0;
+    display: flex;
+}
+.section1 h2.sobre-nos div{
+    color: #0072C4;
+    margin: 0 2vw 0 2vw;
+}
+.section1 p {
+    margin: 2.5vw 0 2.5vw 0;
+    font-size: 1.5vw;
+    line-height: 145%;
+}
+.section2 h2 {
+    font-size: 4vw;
+    font-weight: 500;
+    margin: 2vw 0 2vw 0;
+    display: flex;
+}
+.section2 h2 div {
+    color: #0072C4;
+    margin: 0 2vw 0 2vw;
+}
+.section2 ul li{
+    font-size: 1.5vw;
+    margin: 1vw 0 1vw 0;
+}
+
+.section3 ul.devs {
+    display: flex;
+}
