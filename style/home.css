@@ -192,99 +192,7 @@
     width: 560px;
     height: 315px;
 }
-/*==============================================
-                 MOBILE
-==============================================*/
 
-@media (max-width: 720px ){
-    
-    .banner{
-        height: 50vh;
-    }
-    
-    .banner h1{
-        font-size: 2em;
-        width: 75%;
-    }
-
-    .maleficios .container{
-        display: flex;
-        flex-direction: column-reverse;
-        text-align: center;
-    }
-
-    .container div h2{
-        font-size: 1.3em;
-        width: 100%;
-        margin-top: 5vw;
-    }
-
-    .container div p{
-        font-size: 0.8em;
-        width: 100%;
-        margin-top: 2vw;
-    }
-
-    .container div img{
-        width: 150px;
-    }
-
-    .lista-maleficios ul{
-        display: block;
-        width: 95%; 
-    }
-
-    .lista-maleficios ul li{
-        width: 100%;
-        padding: 10px;
-        margin: 10vw 0 10vw 0;
-    }
-
-    .icon img{
-        width: 50px;
-    }
-
-
-    .conteudo h3{
-        font-size: 1.4em;
-    }
-
-    .conteudo p{
-        font-size: 1em;
-    }
-
-    .ler-mais::before{
-        content: none;
-    }
-
-    .ler-mais:hover{
-        color: #5BA6D4;
-    }
-
-    .ler-mais:active{
-        transform: scale(0.95);
-        background-color: #b9b8b8;
-    }   
-    
-    .referencia{
-        font-size: 0.8em;
-    }
-    .video h2 {
-        font-size: 2em;
-    }
-    .display {
-        flex-direction: column;
-        text-align: center;
-        margin: 0 13vw;
-        
-    }
-    .display div iframe{
-        max-width: 320px;   
-        height: auto;
-        margin: 2vw 0;
-        
-    }
-}
 
 
 /*===============================================================
@@ -416,6 +324,100 @@
     .display div iframe{
         max-width: 450px;   
         height: 250px;
+        margin: 2vw 0;
+        
+    }
+}
+
+/*==============================================
+                 MOBILE
+==============================================*/
+
+@media (max-width: 720px ){
+    
+    .banner{
+        height: 50vh;
+    }
+    
+    .banner h1{
+        font-size: 2em;
+        width: 75%;
+    }
+
+    .maleficios .container{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .container div h2{
+        font-size: 1.3em;
+        width: 100%;
+        margin-top: 5vw;
+    }
+
+    .container div p{
+        font-size: 0.8em;
+        width: 100%;
+        margin-top: 2vw;
+    }
+
+    .container div img{
+        width: 150px;
+    }
+
+    .lista-maleficios ul{
+        display: block;
+        width: 95%; 
+    }
+
+    .lista-maleficios ul li{
+        width: 100%;
+        padding: 10px;
+        margin: 10vw 0 10vw 0;
+    }
+
+    .icon img{
+        width: 50px;
+    }
+
+
+    .conteudo h3{
+        font-size: 1.4em;
+    }
+
+    .conteudo p{
+        font-size: 1em;
+    }
+
+    .ler-mais::before{
+        content: none;
+    }
+
+    .ler-mais:hover{
+        color: #5BA6D4;
+    }
+
+    .ler-mais:active{
+        transform: scale(0.95);
+        background-color: #b9b8b8;
+    }   
+    
+    .referencia{
+        font-size: 0.8em;
+    }
+    .video h2 {
+        font-size: 2em;
+    }
+    .display {
+        flex-direction: column;
+        text-align: center;
+        margin: 0 13vw;
+        
+    }
+    .display div iframe{
+        max-width: 320px;   
+        height: auto;
         margin: 2vw 0;
         
     }
