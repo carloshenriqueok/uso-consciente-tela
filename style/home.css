@@ -403,4 +403,20 @@
     .referencia{
         font-size: 1em;
     }
+
+    .video h2 {
+        font-size: 3em;
+    }
+    .display {
+        flex-direction: column;
+        text-align: center;
+        margin: 0 13vw;
+        
+    }
+    .display div iframe{
+        max-width: 450px;   
+        height: 250px;
+        margin: 2vw 0;
+        
+    }
 }
