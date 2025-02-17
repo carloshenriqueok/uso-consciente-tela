@@ -67,7 +67,7 @@ header nav ul li a:hover::after{
     color: #353535; 
     font-weight: bold;
     font-size: 4em;
-    width: 80%;
+    width: 70%;
     line-height: 110%;
 
     span{
@@ -152,7 +152,7 @@ width: 80%;
 
 .area-idade{
     width: 100%;
-    margin-screentop: 2vw;
+    margin-top: 2vw;
     position: relative;
 }
 
@@ -508,14 +508,52 @@ width: 80%;
    #header .open{
         display: block;
     }
-        
     
+
+    
+
+    .imagem img{
+        width: 300px;
+        height: auto;
+    }
+    .titulo h1{
+        font-size: 3rem;
+        width: 85%;
+    }
+
+    .lista ul{
+        display: flex;  
+        text-align: center;
+    }
+
+    .lista ul li{
+        box-sizing: border-box;
+        margin-top: 5vw;
+        padding: 5vw;
+        width: 90%;
+    }
+
+    .lista ul li img{
+        width: 75px;
+        height: auto;
+    }
+
+    .lista ul li h3{
+        font-size: 2em;
+        width: 100%;    
+    }
+    
+    .lista ul li p{
+        width: 100%;
+        font-size: 1.2em;
+        text-align: justify;
+        margin: 2vw 0 2vw 0;
+    }
+
+    .referencia{
+        text-align: center;
+        font-size: 1em;
+        line-height: 150%;
+    }
 }
-.imagem img{
-    width: 450px;
-    height: auto;
-}
-.titulo h1{
-    font-size: 3.5rem;
-    width: 100%;
-}
+

@@ -247,3 +247,129 @@ section.exemplos p.link_beneficios a {
             text-align: center;
         }
     }
+
+/*===============================================================
+                        TABLET
+=================================================================*/
+
+
+@media (max-width: 1075px) {
+    
+    #header{
+        background-color: #8BC9EF;
+    }
+
+    #header .logo h1 a img{ 
+        width: 250px;
+        height: auto;
+    }
+
+     .nav-lista{
+        display: none;
+    }
+
+    #header .menu-icon{
+        display: block;
+        padding: 2vw;
+    }
+
+    #header .menu-icon button{
+        background-color: transparent;
+        border: none;
+    }
+
+    #header .menu-mobile ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 5vw;
+    }
+
+    #header .menu-mobile ul li{
+        display: block;
+        padding-top: 2vw;
+    }
+
+   #header .open{
+        display: block;
+    }
+
+
+        /*CONTEÚDO*/
+        
+        .reduzir{
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+        }
+
+        section.reduzir div.text1{
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+            width: 90%;
+            margin-left: 4vw;
+        }
+
+        section.reduzir div.text1 h1 {
+            width: 100%;
+            margin: 0;
+            font-size: 2em;
+            text-align: center;
+            margin-top: 3vw;
+        }
+
+        section.reduzir div.text1 p{
+            width: 100%;
+            text-align: center;
+            margin: 4vw 0 4vw 0;
+            font-size: 1em;
+        }
+
+        section.reduzir div.cara-algemas{
+            display: flex;
+            justify-content: center;
+        }
+
+        section.reduzir div.cara-algemas img {
+            width: 450px;
+            height: auto;
+            margin: 5vw 0 0 0;
+        }
+
+
+        .lista ul{
+            display: flex;  
+            text-align: center;
+        }
+
+        .lista ul li{
+            box-sizing: border-box;
+            margin-top: 5vw;
+            padding: 5vw;
+            width: 90%;
+        }
+
+        .lista ul li img{
+            width: 75px;
+            height: auto;
+        }
+
+        .lista ul li h3{
+            font-size: 2em;
+            width: 100%;    
+        }
+        
+        .lista ul li p{
+            width: 100%;
+            font-size: 1em;
+            text-align: justify;
+            margin: 2vw 0 2vw 0;
+        }
+
+        section.exemplos p.link_beneficios{
+            font-size: 1.2em;
+            margin: 4vw 0 4vw 0;
+            text-align: center;
+        }
+}

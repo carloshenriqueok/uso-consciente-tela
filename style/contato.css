@@ -264,3 +264,128 @@ textarea{
         padding: 2vw 3vw;
     }
 }
+
+
+/*===============================================================
+                        TABLET
+=================================================================*/
+
+
+@media (max-width: 1075px) {
+    
+    #header{
+        background-color: #8BC9EF;
+    }
+
+    #header .logo h1 a img{ 
+        width: 250px;
+        height: auto;
+    }
+
+     .nav-lista{
+        display: none;
+    }
+
+    #header .menu-icon{
+        display: block;
+        padding: 2vw;
+    }
+
+    #header .menu-icon button{
+        background-color: transparent;
+        border: none;
+    }
+
+    #header .menu-mobile ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 5vw;
+    }
+
+    #header .menu-mobile ul li{
+        display: block;
+        padding-top: 2vw;
+    }
+
+   #header .open{
+        display: block;
+    }
+
+
+    .contato{
+        margin: 15vw 2vw 5vw 2vw;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+    
+    .informacoes{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .informacoes img{
+        width: 400px;
+        height: auto;
+    }
+
+
+    .informacoes ul li{
+        flex-direction: column;
+        margin-top: 3vw;
+    }
+
+
+    .informacoes ul li img{
+        width: 50px;
+        height: auto;
+    }
+
+    .informacoes ul li p{
+        font-size: 1.2em;
+        margin: 3vw 0 2vw 0;
+    }
+
+    .informacoes ul li:last-child p{
+        width: 100%;
+    }
+
+    .formulario{
+        margin: 10vw;
+        text-align: center;
+    }
+
+    .formulario h2{
+        font-size: 3em;
+    }
+
+    .input{
+        font-size: 1.2em;
+        border-radius: 6px;
+        padding: 2vw 3vw;
+    }
+
+    .buttons{
+       margin-top: 5vw;
+    }
+
+    .btn-enviar:hover{
+        background-color: #0072C4;
+    }
+
+    .btn-enviar{
+        padding: 2vw 3vw;
+    }
+
+    .btn-limpar:hover{
+        background-color: transparent;
+    }
+
+    .btn-limpar{
+        padding: 2vw 3vw;
+    }
+}

@@ -62,13 +62,12 @@
     margin-right: 1vw;
   }
 
-  .social-icons a img {
-    width: 24px;
-    height: 24px;
+  .social-icons a span {
+    font-size: 2em;
     transition: transform 0.3s;
   }
   
-  .social-icons a img:hover {
+  .social-icons a span:hover {
     transform: scale(1.2);
   }
   

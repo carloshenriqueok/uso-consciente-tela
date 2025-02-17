@@ -252,3 +252,122 @@
         font-size: 0.8em;
     }
 }
+
+
+/*===============================================================
+                        TABLET
+=================================================================*/
+
+
+@media (max-width: 1075px) {
+    
+    #header{
+        background-color: #8BC9EF;
+    }
+
+    #header .logo h1 a img{ 
+        width: 250px;
+        height: auto;
+    }
+
+     .nav-lista{
+        display: none;
+    }
+
+    #header .menu-icon{
+        display: block;
+        padding: 2vw;
+    }
+
+    #header .menu-icon button{
+        background-color: transparent;
+        border: none;
+    }
+
+    #header .menu-mobile ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 5vw;
+    }
+
+    #header .menu-mobile ul li{
+        display: block;
+        padding-top: 2vw;
+    }
+
+   #header .open{
+        display: block;
+    }
+
+    .banner h1{
+        font-size: 3em;
+        width: 60%;
+    }
+
+    .maleficios .container{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+
+
+    .container div h2{
+        font-size: 2em;
+        width: 100%;
+        margin-top: 5vw;
+    }
+
+    .container div p{
+        font-size: 1em;
+        width: 100%;
+        margin-top: 2vw;
+    }
+
+    .container div img{
+        width: 300px;
+        height: auto;
+    }
+
+    .lista-maleficios ul{
+        display: block;
+        width: 95%; 
+    }
+
+    .lista-maleficios ul li{
+        width: 100%;
+        padding: 10px;
+        margin: 10vw 0 10vw 0;
+    }
+
+    .icon img{
+        width: 90px;
+    }
+
+
+    .conteudo h3{
+        font-size: 1.6em;
+    }
+
+    .conteudo p{
+        font-size: 1.2em;
+    }
+
+    .ler-mais::before{
+        content: none;
+    }
+
+    .ler-mais:hover{
+        color: #5BA6D4;
+    }
+
+    .ler-mais:active{
+        transform: scale(0.95);
+        background-color: #b9b8b8;
+    }   
+    
+    .referencia{
+        font-size: 1em;
+    }
+}
