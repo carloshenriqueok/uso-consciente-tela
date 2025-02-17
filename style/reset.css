@@ -158,6 +158,7 @@ a.botao {
 	line-height: 50px;
 	font-size: 23px;
 	transition: .5s;
+	z-index: 100;
 }
 
 a.botao:hover{
